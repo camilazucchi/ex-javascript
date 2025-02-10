@@ -1,7 +1,7 @@
 // Passa uma mensagem para o usuário
 alert('Boas vindas ao jogo do número secreto!');
 
-const numeroSecreto = Math.floor(Math.random() * 10);
+const numeroSecreto = Math.floor(Math.random() * 10) + 1;
 let chute;
 let tentativas = 1;
 
